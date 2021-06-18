@@ -6,7 +6,7 @@
 ## Использование
 Для использования API необходимо получить ключ приложения. Для этого регистрируемся и получаем ключ на сайте: [https://www.mouser.co.uk/api-hub/](https://www.mouser.co.uk/api-hub/)
 ### Поиск по ключевому слову
-```charp
+```csharp
 static void Main(string[] args)
 {
     var sp = new Mouser.SearchByKeyword
