@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mouser", "Mouser\Mouser.csproj", "{2E6C970E-3C76-4746-8618-3BB936628BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{07D53298-B81C-4DC7-8887-5F5B9CD81BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6C970E-3C76-4746-8618-3BB936628BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6C970E-3C76-4746-8618-3BB936628BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6C970E-3C76-4746-8618-3BB936628BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6C970E-3C76-4746-8618-3BB936628BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D53298-B81C-4DC7-8887-5F5B9CD81BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D53298-B81C-4DC7-8887-5F5B9CD81BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D53298-B81C-4DC7-8887-5F5B9CD81BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D53298-B81C-4DC7-8887-5F5B9CD81BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AB7253F-4D13-4060-AD08-DE7C8F7986F0}
+	EndGlobalSection
+EndGlobal

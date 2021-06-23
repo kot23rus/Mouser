@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>kot23rus</Authors>
+    <Company>AGNET</Company>
+    <Description>Библиотека классов для работы с API Mouser</Description>
+    <PackageReleaseNotes>Работает поиск по ключевым словам</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\agorshenin\source\repos\Mouser\Mouser\Mouser.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Protos\**" />
+    <EmbeddedResource Remove="Protos\**" />
+    <None Remove="Protos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="OpenAPIs\1.json" ClassName="mouser" />
+  </ItemGroup>
+
+</Project>
